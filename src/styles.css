@@ -1,24 +1,4 @@
-.card-style {
-    background-color: #11385b;
-    border-radius: 25px;
-    padding: 40px;
-    margin: 0px 35px;
-  }
-  
-  .nav-style {
-    display: flex;
-  }
-  
-  .nav-link {
-    margin-right: 100px;
-    color: #fec53a;
-    text-decoration: none;
-    font-size: 35px; 
-  }
-  
-  .nav-link:hover {
-    color: #ffffff;
-  }
+
 
   .nav-style img {
     margin-right: auto ;

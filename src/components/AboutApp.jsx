@@ -1,22 +1,64 @@
-// import { useParams } from 'react-router-dom';
+
 
 export const AboutApp = () => {
-    // const { id } = useParams();
-
-    return (
-        
-        <section>
-          
-          <div className="content-about">
-              <h1>
-                Sobre Nosotros
-              </h1>
-              <img src="/img/jpg/Trabajo1.jpg"/>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum obcaecati nisi eum laboriosam laudantium, culpa nihil illo. Voluptates ratione cum fuga aperiam architecto, dicta voluptatibus quaerat reiciendis suscipit sunt, aspernatur sapiente amet unde similique illo dolores fugit. Officiis nulla quis enim impedit id earum eius qui, maxime quasi ea provident nostrum blanditiis ipsam quam aspernatur amet sed soluta molestias, velit eligendi vitae illum minus. Aliquam quas numquam repellat fuga temporibus nihil veritatis praesentium vitae corporis sunt illum pariatur magni architecto aut, totam provident? Tempore vitae corporis beatae aliquid ad nulla labore, consequatur sapiente quam sint sit maiores minima dicta obcaecati iste dolorem nesciunt odit illum, nam doloribus aperiam cum praesentium saepe ducimus? Cumque quasi atque, aspernatur nesciunt beatae, quos temporibus deserunt soluta aperiam placeat consequuntur odio odit quas, autem quibusdam exercitationem ut veniam tenetur obcaecati. Commodi pariatur eaque amet facilis laborum, id laudantium! Corrupti quis quo expedita exercitationem? Perferendis quae iste quis cumque dignissimos nostrum in eveniet recusandae consequuntur est! Eum vel illum necessitatibus similique ab alias, dignissimos aspernatur quas sapiente nulla quasi corporis laudantium adipisci tenetur explicabo excepturi rerum exercitationem nobis placeat sunt provident earum totam vero. Praesentium expedita facere dolores distinctio, aperiam accusantium est? At et atque sed.</p>
+  return (
+    <section>
+      <div className="container mt-5">
+        <div className="row">
+          <div className="col-md-6">
+            <div id="imgAbout" className="rounded float-start" ></div>
           </div>
-
-        </section>
-                
-        
-    );
+          <div className="col-md-6 ">
+            <h1 id="title">SOBRE NOSOTROS</h1>
+            <p id="stitlesP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita nulla quod, dolorum ipsa qui a
+              vero animi magnam veritatis voluptatibus eligendi debitis eos vitae vel suscipit molestias at quis
+              laboriosam?
+            </p>
+            <p id="stitlesP">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero nisi, iste perferendis
+              ab facilis amet unde necessitatibus magni ducimus nihil non aperiam, nulla quos? Ad sapiente quos ex saepe
+              quod dignissimos laborum, exercitationem cum! Dolores exercitationem optio facere ipsa quam laboriosam, ea
+              fugiat vel hic quae voluptate, eius deserunt.</p>
+          </div>
+        </div>
+        <div className="container mt-5 row row-cols-1 row-cols-md-3 g-4">
+                    <div className="col">
+                        <div className="card h-100 ">
+                            <img src="/src/assets/img/Trabajo1.jpg" className="card-img-top" />
+                            <div className="card-body">
+                                <h5 className="card-title">Card title</h5>
+                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div className="card-footer">
+                                <small className="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card h-100">
+                            <img src="/src/assets/img/Trabajo2.jpg" className="card-img-top" />
+                            <div className="card-body">
+                                <h5 className="card-title">Card title</h5>
+                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div className="card-footer">
+                                <small className="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card h-100">
+                            <img src="/src/assets/img/Trabajo4.jpg" className="card-img-top" />
+                            <div className="card-body">
+                                <h5 className="card-title">Card title</h5>
+                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div className="card-footer">
+                                <small className="text-body-secondary">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      </div>
+    </section>
+  );
 }

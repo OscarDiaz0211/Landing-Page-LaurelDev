@@ -6,8 +6,6 @@ const NavBarApp = () => {
         <header>
             <div className="card card-style pt-3">
                 <nav className="nav-style" >
-                    
-                    <img src="/img/png/logo_header_350w.png"/>
                     <div >
                             <NavLink className={({isActive}) => `nav-item nav-link ${isActive ? 'active':''}`}
                             to="/Home">
