@@ -7,7 +7,7 @@
 body{
     width: 100% !important;
     max-width: 100%;
-    background-color: #eef3fd;
+    background-color: #ececec;
 }
 
 .curved {
@@ -17,3 +17,15 @@ body{
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
   }
+
+  .curved-inverted {
+    position: relative;
+    background: rgb(17, 56, 91);
+    height: 10vh;
+    border-top-left-radius: 50% 20%;
+    border-top-right-radius: 50% 20%;
+  }
+
+.section-v1{
+    background-color: #ffffff !important;
+}
